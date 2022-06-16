@@ -1,0 +1,126 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: #23232e;
+	color: white;
+	text-align: center;
+	padding: 50px;
+
+}
+header img{
+	width: 7%;
+	padding-bottom: 50px;
+
+}
+h2{
+	text-transform: uppercase;
+	font-size: 40px;
+}
+header p{
+	margin-bottom: 50px;
+	font-size: 12px;
+}
+header span{
+	border: 1px solid white;
+	padding: 7px 5px;
+	border-radius: 50%;
+
+}
+
+/*what I do section*/
+.whatido{
+	text-align: center;
+	padding: 25px 25%;
+	overflow: hidden;
+}
+
+.whatido .row .col{
+	width: 31.33%;
+	text-align: left;
+	margin: 1%;
+	float: left;
+
+}
+
+/*My work section*/
+.mywork{
+	overflow: hidden;
+	background: #23232e;
+	color: white;
+	text-align: center;
+	padding: 25px 30%;
+}
+.mywork .menu{
+	overflow: hidden;
+	margin-bottom: 45px;
+}
+.mywork .menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.mywork .menu ul li{
+	float: left;
+	margin: 0 12px;
+
+}
+.mywork .menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+.mywork .menu ul li a .active{
+	border-bottom: 1px solid white;
+}
+.mywork .row .col{
+	width: 31.33%;
+	margin: 1%;
+	float: left; 
+
+}
+.mywork .row .col img{
+	width: 100%;
+}
+button{
+	background: #7b77c9;
+	padding: 7px 5px;
+	border-width: 50%;
+	color: white;
+
+}
+
+/*Photography section*/
+
+.photography{
+	text-align: center;
+	padding: 25px 25%;
+	overflow: hidden;
+
+}
+.photography .row .col{
+	width: 31.33%;
+	margin: 1%;
+	float: left; 
+
+}
+.photography .row .col img{
+	width: 100%;
+}
+/*Search section*/
+.search{
+	overflow: hidden;
+	background: #23232e;
+	color: white;
+	text-align: center;
+	padding: 50px 30%;
+}
+footer{
+	color: #b6b3b3;
+	text-align: center;
+	padding: 50px;
+
+}
+.social a{
+	color: #b6b3b3;
+}
